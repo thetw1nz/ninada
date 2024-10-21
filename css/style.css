@@ -1,0 +1,27 @@
+:root{
+    --color1: rgb(134, 0, 0);
+    --color2: rgb(56, 56, 56);
+    --color3: rgb(48, 48, 48);
+}
+header, footer, section{
+    padding: 100px 0;
+}
+header{
+    padding: 200px 0;
+}
+header, footer{
+    background: var(--color1);
+    background: linear-gradient(45deg, var(--color1) 0%,var(--color2) 100%);
+}
+.btn-id{
+    display: block;
+    max-width: 300px;
+    margin: 20px auto;
+    padding: 15px 30px;
+    color:var(--bs-white);
+    background-color: var(--color2);
+}
+.btn-id:hover{
+    color:var(--bs-white);
+    background-color: var(--color3);
+}
